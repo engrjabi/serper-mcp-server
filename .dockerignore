@@ -1,0 +1,59 @@
+# Git
+.gitignore
+# Note: .git is needed for setuptools-scm version detection
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Environment
+.env
+.env.local
+.env.dev
+.env.prod
+.env.test
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.tox
+.coverage
+.pytest_cache
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/
+# Note: README.md is needed for the build
+
+# CI/CD
+.github/
+
+# Temporary files
+*.tmp
+*.log
+*.pid
+
+# Node modules (if any)
+node_modules/
+
+# Serena specific
+.serena/
